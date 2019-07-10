@@ -10,6 +10,9 @@ namespace writer
       Writer author = new Writer("I do declare: ");
 
       author.Write(output);
+
+      author.Prefix = "That's right, I said: ";
+      author.Write(output);
     }
   }
 

@@ -2,11 +2,16 @@
 
 namespace writer
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      string output = "Nasvhille Software School";
+      Writer author = new Writer("I do declare: ");
+
+      author.Write(output);
     }
+  }
+
+
 }
